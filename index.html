@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Javascript and React</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Word Analyzer App</title>
 </head>
 <body>
-  <script src="index.js"></script>
+
+    <h2>Word Analyzer</h2>
+
+    <!-- Input Field -->
+    <input type="text" id="inputText" placeholder="Enter a sentence" size="50">
+    <br><br>
+
+    <!-- Button -->
+    <button onclick="analyzeText()">Analyze</button>
+
+    <br><br>
+
+    <!-- Output Area -->
+    <div id="output"></div>
+
+    <script src="analyzer.js"></script>
+
+
 </body>
 </html>
